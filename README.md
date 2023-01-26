@@ -1,4 +1,4 @@
-<h1>>Local Area Network Denial Attack</h1>
+<h1>Local Area Network Denial Attack</h1>
 
 <h2>Description</h2>
 During my time in the Georgia Tech Cyber & Network Security Bootcamp, I was tasked with coming up with my own project. When it comes to the field of cyber security, I am more so interested in the attacks and penetration testing side of things. For this reason I decided to look up some form of an attack that I would be able to launch on my own. I ended up deciding to do LAND attack. A LAND attack is conducted by the attacker sending spoofed TCP SYN packets where the source and destination IP and ports are the same. The target machine then continiously tries to reply to itself, resulting in all of its' resources being used and it freezing up or crashing.
