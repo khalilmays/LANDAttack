@@ -22,7 +22,13 @@ During my time in the Georgia Tech Cyber & Network Security Bootcamp, I was task
 - <b>3. Since I'm simulating an attack, I have to conduct reconnaissance, so I ran an Nmap scan on the IP address for the Windows XP machine (192.168.56.101) I found that port 135 was open.</b></br>
 - <b>4. Since I'm simulating an attack, I have to conduct reconnaissance, so I ran an Nmap scan on the IP address for the Windows XP machine (192.168.56.101) to see what ports (135, 139, 445) are open.</b></br>
 - <b>5. Next, I used Hping3 and ran the following command: "hping3 -S 192.168.56.101 -a 192.168.56.101 -k -s 135 -p 135 --flood"</b></br>
+  - <b>"-S 192.168.56.101" option is for sending SYN packets to the specific IP address</b></br>
+  - <b>"-a 192.168.56.101" option is to spoof the source addresss to the Windows XP machine</b></br>
+  - <b>"-k -s 135" option is for keeping the source port the same </b></br>
+  - <b>"-p 135" option is for setting the destination port </b></br>
+  - <b>"--flood" option is for sending the packets as fast as they can be sent</b></br>
+ 
 
-- <b><a href="https://docs.google.com/presentation/d/16_dxqSPwF-r8-rtiIK-lcZNwy8_tziCDOjyGTKN1a9Q/edit?usp=sharing">Splunk Log Analysis</a></b>
+- <b><a href="https://www.youtube.com/watch?v=FcKHJdMa4Hs&t=56s">Youtube Demonstration</a></b>
 
 <p align="center">
